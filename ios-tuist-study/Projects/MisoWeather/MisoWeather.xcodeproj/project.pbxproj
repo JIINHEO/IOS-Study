@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01853F65A9E59D5F8C6ACFDE /* 123.swift in Resources */ = {isa = PBXBuildFile; fileRef = D86548CB3023FA3F87902363 /* 123.swift */; };
+		021AD96DF6E1C366B7F88798 /* Home_Home.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F55C73A02064F1191799DF7C /* Home_Home.bundle */; };
+		02D7E1A166444B7531300FB0 /* APIKit_APIKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E7C2E0812F51B6F2F9FFFD09 /* APIKit_APIKit.bundle */; };
+		2ADD9B58B6F9F3C33BD89818 /* MisoWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5576237BA1BA951BD2BDB8A9 /* MisoWeather.swift */; };
+		52726233884372C5208E2051 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1B080A544AD004C0E7133D /* Home.framework */; };
+		5E812BB967FCAF32371E98CD /* DesignKit_DesignKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 287F4445FA6BB2CCAAAC0727 /* DesignKit_DesignKit.bundle */; };
+		602542355A98EAB9DB1447C0 /* APIKit_APIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7C2E0812F51B6F2F9FFFD09 /* APIKit_APIKit.bundle */; };
+		68650629BCE548C01BBA3583 /* DesignKit_DesignKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 287F4445FA6BB2CCAAAC0727 /* DesignKit_DesignKit.bundle */; };
+		A7BE9BE7202B70651DE0A88F /* TuistBundle+MisoWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D5354D3C6A28F4523BDCD0 /* TuistBundle+MisoWeather.swift */; };
+		A8DD7435C19244B83585907B /* DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896C09C330DACD45BA8C7F19 /* DesignKit.framework */; };
+		C3CBD18D3424B600B1452491 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845603BF7DF16283D1781516 /* APIKit.framework */; };
+		FC3CB04A72D13E7C7D24BEC2 /* Home_Home.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = F55C73A02064F1191799DF7C /* Home_Home.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		193EDC1A3EE5866034E3D87B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA77CA5C814349BB7FB5A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B794DEB91C5FC1BB531E44C3;
+			remoteInfo = MisoWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DC3D52067ABE0EF53134D54 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46930B3D89F30E86956068FF /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				02D7E1A166444B7531300FB0 /* APIKit_APIKit.bundle in Dependencies */,
+				5E812BB967FCAF32371E98CD /* DesignKit_DesignKit.bundle in Dependencies */,
+				FC3CB04A72D13E7C7D24BEC2 /* Home_Home.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F3DA681098993396FC7A85FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B1B080A544AD004C0E7133D /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244406F46500DB9B28E6DEEB /* MisoWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MisoWeather-Info.plist"; sourceTree = "<group>"; };
+		287F4445FA6BB2CCAAAC0727 /* DesignKit_DesignKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignKit_DesignKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		355D985A366A1FFD52BEAC43 /* MisoWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisoWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5576237BA1BA951BD2BDB8A9 /* MisoWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisoWeather.swift; sourceTree = "<group>"; };
+		60D5354D3C6A28F4523BDCD0 /* TuistBundle+MisoWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MisoWeather.swift"; sourceTree = "<group>"; };
+		73929BADD7BC76025AD130BB /* MisoWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisoWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845603BF7DF16283D1781516 /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896C09C330DACD45BA8C7F19 /* DesignKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48C7228D0A5CF437A315945 /* MisoWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MisoWeatherTests-Info.plist"; sourceTree = "<group>"; };
+		D86548CB3023FA3F87902363 /* 123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 123.swift; sourceTree = "<group>"; };
+		E7C2E0812F51B6F2F9FFFD09 /* APIKit_APIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIKit_APIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55C73A02064F1191799DF7C /* Home_Home.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Home_Home.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2B5825DCED85D76A10900C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB786B5FDCF8835D4772629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CBD18D3424B600B1452491 /* APIKit.framework in Frameworks */,
+				A8DD7435C19244B83585907B /* DesignKit.framework in Frameworks */,
+				52726233884372C5208E2051 /* Home.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8264665A05FD18D9D15625 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D86548CB3023FA3F87902363 /* 123.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		15536C8562E709D002FFE2BE /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				244406F46500DB9B28E6DEEB /* MisoWeather-Info.plist */,
+				C48C7228D0A5CF437A315945 /* MisoWeatherTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		2684AA2CBD4E086C0BD00F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C2E0812F51B6F2F9FFFD09 /* APIKit_APIKit.bundle */,
+				845603BF7DF16283D1781516 /* APIKit.framework */,
+				287F4445FA6BB2CCAAAC0727 /* DesignKit_DesignKit.bundle */,
+				896C09C330DACD45BA8C7F19 /* DesignKit.framework */,
+				F55C73A02064F1191799DF7C /* Home_Home.bundle */,
+				1B1B080A544AD004C0E7133D /* Home.framework */,
+				355D985A366A1FFD52BEAC43 /* MisoWeather.app */,
+				73929BADD7BC76025AD130BB /* MisoWeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31A7D9E02197C475329E2D19 = {
+			isa = PBXGroup;
+			children = (
+				4CBAA72911DCF49200ADB925 /* Project */,
+				6F83B6A95188EDE069D96E42 /* Frameworks */,
+				2684AA2CBD4E086C0BD00F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBAA72911DCF49200ADB925 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				A669E56FCEA5BC441F97D323 /* Derived */,
+				0F8264665A05FD18D9D15625 /* Resources */,
+				B08929F2C9B78E71BD86D2FB /* Sources */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		6F83B6A95188EDE069D96E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A669E56FCEA5BC441F97D323 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				15536C8562E709D002FFE2BE /* InfoPlists */,
+				BBCBBDCC6F995274B452727E /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		B08929F2C9B78E71BD86D2FB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5576237BA1BA951BD2BDB8A9 /* MisoWeather.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BBCBBDCC6F995274B452727E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				60D5354D3C6A28F4523BDCD0 /* TuistBundle+MisoWeather.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45FD627AF54EA3AF3A94FBD7 /* MisoWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A34EFD952CDEEB55059471 /* Build configuration list for PBXNativeTarget "MisoWeatherTests" */;
+			buildPhases = (
+				1E75F39F1839CAA9C5D3B69F /* Sources */,
+				EC9BC0993BA6740D467A27F5 /* Resources */,
+				2DC3D52067ABE0EF53134D54 /* Embed Frameworks */,
+				3E2B5825DCED85D76A10900C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C541071ADC52FE167DB511 /* PBXTargetDependency */,
+			);
+			name = MisoWeatherTests;
+			productName = MisoWeatherTests;
+			productReference = 73929BADD7BC76025AD130BB /* MisoWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B794DEB91C5FC1BB531E44C3 /* MisoWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A93AAF44915E2E6BC3EB8C /* Build configuration list for PBXNativeTarget "MisoWeather" */;
+			buildPhases = (
+				3F35E22B20AAD10AEC771E27 /* Sources */,
+				AD18D0BD5ED509DD690D3BAC /* Resources */,
+				F3DA681098993396FC7A85FD /* Embed Frameworks */,
+				EB786B5FDCF8835D4772629A /* Frameworks */,
+				46930B3D89F30E86956068FF /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MisoWeather;
+			productName = MisoWeather;
+			productReference = 355D985A366A1FFD52BEAC43 /* MisoWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA77CA5C814349BB7FB5A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					45FD627AF54EA3AF3A94FBD7 = {
+						TestTargetID = B794DEB91C5FC1BB531E44C3;
+					};
+				};
+			};
+			buildConfigurationList = 8460D2A4698C84AE03234669 /* Build configuration list for PBXProject "MisoWeather" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 31A7D9E02197C475329E2D19;
+			productRefGroup = 2684AA2CBD4E086C0BD00F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B794DEB91C5FC1BB531E44C3 /* MisoWeather */,
+				45FD627AF54EA3AF3A94FBD7 /* MisoWeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD18D0BD5ED509DD690D3BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01853F65A9E59D5F8C6ACFDE /* 123.swift in Resources */,
+				602542355A98EAB9DB1447C0 /* APIKit_APIKit.bundle in Resources */,
+				68650629BCE548C01BBA3583 /* DesignKit_DesignKit.bundle in Resources */,
+				021AD96DF6E1C366B7F88798 /* Home_Home.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9BC0993BA6740D467A27F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E75F39F1839CAA9C5D3B69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F35E22B20AAD10AEC771E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BE9BE7202B70651DE0A88F /* TuistBundle+MisoWeather.swift in Sources */,
+				2ADD9B58B6F9F3C33BD89818 /* MisoWeather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C541071ADC52FE167DB511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MisoWeather;
+			target = B794DEB91C5FC1BB531E44C3 /* MisoWeather */;
+			targetProxy = 193EDC1A3EE5866034E3D87B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A513B13C1DD4849A09EA9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57163C93B92FACCCCD361066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/MisoWeatherTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiin.MisoWeatherTests;
+				PRODUCT_NAME = MisoWeatherTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisoWeather.app/MisoWeather";
+				TEST_TARGET_NAME = MisoWeather;
+			};
+			name = Debug;
+		};
+		8C8DE69871E16D78A3448D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/MisoWeatherTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiin.MisoWeatherTests;
+				PRODUCT_NAME = MisoWeatherTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisoWeather.app/MisoWeather";
+				TEST_TARGET_NAME = MisoWeather;
+			};
+			name = Release;
+		};
+		96930DAFD43F575E433D22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB32FA26BE8EDB4F2D3551E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/MisoWeather-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiin.MisoWeather;
+				PRODUCT_NAME = MisoWeather;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA3FA18729A1D0B1CE2EEE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/MisoWeather-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiin.MisoWeather;
+				PRODUCT_NAME = MisoWeather;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A93AAF44915E2E6BC3EB8C /* Build configuration list for PBXNativeTarget "MisoWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3FA18729A1D0B1CE2EEE4C /* Debug */,
+				EB32FA26BE8EDB4F2D3551E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8460D2A4698C84AE03234669 /* Build configuration list for PBXProject "MisoWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96930DAFD43F575E433D22F2 /* Debug */,
+				0A513B13C1DD4849A09EA9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A34EFD952CDEEB55059471 /* Build configuration list for PBXNativeTarget "MisoWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57163C93B92FACCCCD361066 /* Debug */,
+				8C8DE69871E16D78A3448D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA77CA5C814349BB7FB5A7B /* Project object */;
+}

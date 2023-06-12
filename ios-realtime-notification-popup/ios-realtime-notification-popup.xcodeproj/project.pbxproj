@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A6FB3F79E3F6A141A9B0957 /* Pods_ios_realtime_notification_popup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6445999CBEE03CFADBE7D749 /* Pods_ios_realtime_notification_popup.framework */; };
+		E8963E3A274B670E001EA0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8963E39274B670E001EA0BF /* AppDelegate.swift */; };
+		E8963E3C274B670E001EA0BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8963E3B274B670E001EA0BF /* SceneDelegate.swift */; };
+		E8963E3E274B670E001EA0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8963E3D274B670E001EA0BF /* ViewController.swift */; };
+		E8963E41274B670E001EA0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8963E3F274B670E001EA0BF /* Main.storyboard */; };
+		E8963E43274B6710001EA0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8963E42274B6710001EA0BF /* Assets.xcassets */; };
+		E8963E46274B6710001EA0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8963E44274B6710001EA0BF /* LaunchScreen.storyboard */; };
+		E8963E4F274B807D001EA0BF /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8963E4D274B807D001EA0BF /* NoticeViewController.swift */; };
+		E8963E50274B807D001EA0BF /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8963E4E274B807D001EA0BF /* NoticeViewController.xib */; };
+		E8963E52274B8D86001EA0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8963E51274B8D86001EA0BF /* GoogleService-Info.plist */; };
+		E8963E54274B9346001EA0BF /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8963E53274B9346001EA0BF /* RemoteConfigDefaults.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BAF9399BDDD623DF3622BB0 /* Pods-ios-realtime-notification-popup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-realtime-notification-popup.debug.xcconfig"; path = "Target Support Files/Pods-ios-realtime-notification-popup/Pods-ios-realtime-notification-popup.debug.xcconfig"; sourceTree = "<group>"; };
+		6445999CBEE03CFADBE7D749 /* Pods_ios_realtime_notification_popup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_realtime_notification_popup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6842A5C7A66F2EDC4033EA03 /* Pods-ios-realtime-notification-popup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-realtime-notification-popup.release.xcconfig"; path = "Target Support Files/Pods-ios-realtime-notification-popup/Pods-ios-realtime-notification-popup.release.xcconfig"; sourceTree = "<group>"; };
+		E8963E36274B670E001EA0BF /* ios-realtime-notification-popup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-realtime-notification-popup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8963E39274B670E001EA0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8963E3B274B670E001EA0BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8963E3D274B670E001EA0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		E8963E40274B670E001EA0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8963E42274B6710001EA0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8963E45274B6710001EA0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8963E47274B6710001EA0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8963E4D274B807D001EA0BF /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		E8963E4E274B807D001EA0BF /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
+		E8963E51274B8D86001EA0BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8963E53274B9346001EA0BF /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8963E33274B670E001EA0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6FB3F79E3F6A141A9B0957 /* Pods_ios_realtime_notification_popup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B483A5C169F9BD3EE1C660 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF9399BDDD623DF3622BB0 /* Pods-ios-realtime-notification-popup.debug.xcconfig */,
+				6842A5C7A66F2EDC4033EA03 /* Pods-ios-realtime-notification-popup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C9154D502F1E9CA9E74A129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6445999CBEE03CFADBE7D749 /* Pods_ios_realtime_notification_popup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8963E2D274B670E001EA0BF = {
+			isa = PBXGroup;
+			children = (
+				E8963E38274B670E001EA0BF /* ios-realtime-notification-popup */,
+				E8963E37274B670E001EA0BF /* Products */,
+				24B483A5C169F9BD3EE1C660 /* Pods */,
+				7C9154D502F1E9CA9E74A129 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8963E37274B670E001EA0BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8963E36274B670E001EA0BF /* ios-realtime-notification-popup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8963E38274B670E001EA0BF /* ios-realtime-notification-popup */ = {
+			isa = PBXGroup;
+			children = (
+				E8963E39274B670E001EA0BF /* AppDelegate.swift */,
+				E8963E3B274B670E001EA0BF /* SceneDelegate.swift */,
+				E8963E3D274B670E001EA0BF /* ViewController.swift */,
+				E8963E53274B9346001EA0BF /* RemoteConfigDefaults.plist */,
+				E8963E4D274B807D001EA0BF /* NoticeViewController.swift */,
+				E8963E4E274B807D001EA0BF /* NoticeViewController.xib */,
+				E8963E3F274B670E001EA0BF /* Main.storyboard */,
+				E8963E42274B6710001EA0BF /* Assets.xcassets */,
+				E8963E44274B6710001EA0BF /* LaunchScreen.storyboard */,
+				E8963E51274B8D86001EA0BF /* GoogleService-Info.plist */,
+				E8963E47274B6710001EA0BF /* Info.plist */,
+			);
+			path = "ios-realtime-notification-popup";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8963E35274B670E001EA0BF /* ios-realtime-notification-popup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8963E4A274B6710001EA0BF /* Build configuration list for PBXNativeTarget "ios-realtime-notification-popup" */;
+			buildPhases = (
+				A46CB395B439E3719FC383F7 /* [CP] Check Pods Manifest.lock */,
+				E8963E32274B670E001EA0BF /* Sources */,
+				E8963E33274B670E001EA0BF /* Frameworks */,
+				E8963E34274B670E001EA0BF /* Resources */,
+				B433CFCAF463E3F06ABDC389 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-realtime-notification-popup";
+			productName = "ios-realtime-notification-popup";
+			productReference = E8963E36274B670E001EA0BF /* ios-realtime-notification-popup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8963E2E274B670E001EA0BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E8963E35274B670E001EA0BF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = E8963E31274B670E001EA0BF /* Build configuration list for PBXProject "ios-realtime-notification-popup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8963E2D274B670E001EA0BF;
+			productRefGroup = E8963E37274B670E001EA0BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8963E35274B670E001EA0BF /* ios-realtime-notification-popup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8963E34274B670E001EA0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8963E54274B9346001EA0BF /* RemoteConfigDefaults.plist in Resources */,
+				E8963E46274B6710001EA0BF /* LaunchScreen.storyboard in Resources */,
+				E8963E43274B6710001EA0BF /* Assets.xcassets in Resources */,
+				E8963E52274B8D86001EA0BF /* GoogleService-Info.plist in Resources */,
+				E8963E50274B807D001EA0BF /* NoticeViewController.xib in Resources */,
+				E8963E41274B670E001EA0BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A46CB395B439E3719FC383F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-realtime-notification-popup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B433CFCAF463E3F06ABDC389 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-realtime-notification-popup/Pods-ios-realtime-notification-popup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-realtime-notification-popup/Pods-ios-realtime-notification-popup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-realtime-notification-popup/Pods-ios-realtime-notification-popup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8963E32274B670E001EA0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8963E3E274B670E001EA0BF /* ViewController.swift in Sources */,
+				E8963E3A274B670E001EA0BF /* AppDelegate.swift in Sources */,
+				E8963E4F274B807D001EA0BF /* NoticeViewController.swift in Sources */,
+				E8963E3C274B670E001EA0BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8963E3F274B670E001EA0BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8963E40274B670E001EA0BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8963E44274B6710001EA0BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8963E45274B6710001EA0BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8963E48274B6710001EA0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8963E49274B6710001EA0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8963E4B274B6710001EA0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAF9399BDDD623DF3622BB0 /* Pods-ios-realtime-notification-popup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMT249Z57K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-realtime-notification-popup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiin.ios-realtime-notification-popup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E8963E4C274B6710001EA0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6842A5C7A66F2EDC4033EA03 /* Pods-ios-realtime-notification-popup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMT249Z57K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-realtime-notification-popup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiin.ios-realtime-notification-popup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8963E31274B670E001EA0BF /* Build configuration list for PBXProject "ios-realtime-notification-popup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8963E48274B6710001EA0BF /* Debug */,
+				E8963E49274B6710001EA0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8963E4A274B6710001EA0BF /* Build configuration list for PBXNativeTarget "ios-realtime-notification-popup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8963E4B274B6710001EA0BF /* Debug */,
+				E8963E4C274B6710001EA0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8963E2E274B670E001EA0BF /* Project object */;
+}

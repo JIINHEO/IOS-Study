@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "77037C45-B616-41BF-BF4E-BE88C1D2356C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5FD2B5F-EB04-4B90-A751-1AF1F3E5B85F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BountyList/BountyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "BountyViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F5FD2B5F-EB04-4B90-A751-1AF1F3E5B85F - ded43a1a44ca334f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BountyList.BountyViewController.__deallocating_deinit"
+                  moduleName = "BountyList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojiin/Desktop/BountyList/BountyList/BountyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F5FD2B5F-EB04-4B90-A751-1AF1F3E5B85F - be3064f496234fcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BountyList.BountyViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BountyList.BountyViewController"
+                  moduleName = "BountyList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojiin/Desktop/BountyList/BountyList/BountyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F5FD2B5F-EB04-4B90-A751-1AF1F3E5B85F - 822cb8a23be7fd3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BountyList.BountyViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BountyList.BountyViewController"
+                  moduleName = "BountyList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojiin/Desktop/BountyList/BountyList/BountyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "386">
+               </Location>
+               <Location
+                  uuid = "F5FD2B5F-EB04-4B90-A751-1AF1F3E5B85F - 2735a8c36501f940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BountyList.BountyViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BountyList.BountyViewController&gt;"
+                  moduleName = "BountyList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojiin/Desktop/BountyList/BountyList/BountyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F5FD2B5F-EB04-4B90-A751-1AF1F3E5B85F - 93b7ea6ac313c525"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BountyList.BountyViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BountyList.BountyViewController&gt;"
+                  moduleName = "BountyList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojiin/Desktop/BountyList/BountyList/BountyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "239">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD9FA770-BD88-4A64-AF0D-FE6ECE8A0B4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BountyList/BountyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "BountyViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
