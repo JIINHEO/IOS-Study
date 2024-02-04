@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E8EDA0CA2B6FB21D00F89D50 /* VoiceMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0C92B6FB21D00F89D50 /* VoiceMemoApp.swift */; };
-		E8EDA0CC2B6FB21D00F89D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0CB2B6FB21D00F89D50 /* ContentView.swift */; };
 		E8EDA0CE2B6FB21E00F89D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EDA0CD2B6FB21E00F89D50 /* Assets.xcassets */; };
 		E8EDA0D12B6FB21E00F89D50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EDA0D02B6FB21E00F89D50 /* Preview Assets.xcassets */; };
 		E8EDA0DB2B6FB21F00F89D50 /* VoiceMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0DA2B6FB21F00F89D50 /* VoiceMemoTests.swift */; };
@@ -16,6 +15,9 @@
 		E8EDA0E72B6FB21F00F89D50 /* VoiceMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0E62B6FB21F00F89D50 /* VoiceMemoUITestsLaunchTests.swift */; };
 		E8EDA0F42B6FB32700F89D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EDA0F32B6FB32700F89D50 /* LaunchScreen.storyboard */; };
 		E8EDA1032B6FB52100F89D50 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1022B6FB52100F89D50 /* Color+Extensions.swift */; };
+		E8EDA1062B6FB74F00F89D50 /* OnboardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1052B6FB74F00F89D50 /* OnboardingContent.swift */; };
+		E8EDA1082B6FB7D000F89D50 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1072B6FB7D000F89D50 /* OnboardingViewModel.swift */; };
+		E8EDA10A2B6FB9E600F89D50 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1092B6FB9E600F89D50 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		E8EDA0C62B6FB21D00F89D50 /* VoiceMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EDA0C92B6FB21D00F89D50 /* VoiceMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoApp.swift; sourceTree = "<group>"; };
-		E8EDA0CB2B6FB21D00F89D50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8EDA0CD2B6FB21E00F89D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8EDA0D02B6FB21E00F89D50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8EDA0D62B6FB21F00F89D50 /* VoiceMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,9 @@
 		E8EDA0F32B6FB32700F89D50 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8EDA0F52B6FB34000F89D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E8EDA1022B6FB52100F89D50 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		E8EDA1052B6FB74F00F89D50 /* OnboardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContent.swift; sourceTree = "<group>"; };
+		E8EDA1072B6FB7D000F89D50 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		E8EDA1092B6FB9E600F89D50 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				E8EDA0C92B6FB21D00F89D50 /* VoiceMemoApp.swift */,
-				E8EDA0CB2B6FB21D00F89D50 /* ContentView.swift */,
 				E8EDA0F32B6FB32700F89D50 /* LaunchScreen.storyboard */,
 			);
 			path = App;
@@ -176,6 +179,7 @@
 		E8EDA0FA2B6FB3A500F89D50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8EDA1042B6FB73A00F89D50 /* Onboarding */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,6 +216,8 @@
 		E8EDA0FF2B6FB46600F89D50 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				E8EDA1072B6FB7D000F89D50 /* OnboardingViewModel.swift */,
+				E8EDA1092B6FB9E600F89D50 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -229,6 +235,14 @@
 			children = (
 			);
 			path = TodoList;
+			sourceTree = "<group>";
+		};
+		E8EDA1042B6FB73A00F89D50 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA1052B6FB74F00F89D50 /* OnboardingContent.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +376,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8EDA0CC2B6FB21D00F89D50 /* ContentView.swift in Sources */,
+				E8EDA1082B6FB7D000F89D50 /* OnboardingViewModel.swift in Sources */,
+				E8EDA1062B6FB74F00F89D50 /* OnboardingContent.swift in Sources */,
+				E8EDA10A2B6FB9E600F89D50 /* OnboardingView.swift in Sources */,
 				E8EDA0CA2B6FB21D00F89D50 /* VoiceMemoApp.swift in Sources */,
 				E8EDA1032B6FB52100F89D50 /* Color+Extensions.swift in Sources */,
 			);
