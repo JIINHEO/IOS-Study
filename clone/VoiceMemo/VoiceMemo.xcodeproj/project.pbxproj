@@ -14,6 +14,8 @@
 		E8EDA0DB2B6FB21F00F89D50 /* VoiceMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0DA2B6FB21F00F89D50 /* VoiceMemoTests.swift */; };
 		E8EDA0E52B6FB21F00F89D50 /* VoiceMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0E42B6FB21F00F89D50 /* VoiceMemoUITests.swift */; };
 		E8EDA0E72B6FB21F00F89D50 /* VoiceMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0E62B6FB21F00F89D50 /* VoiceMemoUITestsLaunchTests.swift */; };
+		E8EDA0F42B6FB32700F89D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EDA0F32B6FB32700F89D50 /* LaunchScreen.storyboard */; };
+		E8EDA1032B6FB52100F89D50 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1022B6FB52100F89D50 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		E8EDA0E02B6FB21F00F89D50 /* VoiceMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EDA0E42B6FB21F00F89D50 /* VoiceMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoUITests.swift; sourceTree = "<group>"; };
 		E8EDA0E62B6FB21F00F89D50 /* VoiceMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8EDA0F32B6FB32700F89D50 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8EDA0F52B6FB34000F89D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E8EDA1022B6FB52100F89D50 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +99,12 @@
 		E8EDA0C82B6FB21D00F89D50 /* VoiceMemo */ = {
 			isa = PBXGroup;
 			children = (
-				E8EDA0C92B6FB21D00F89D50 /* VoiceMemoApp.swift */,
-				E8EDA0CB2B6FB21D00F89D50 /* ContentView.swift */,
+				E8EDA0F62B6FB38500F89D50 /* App */,
+				E8EDA0F72B6FB39600F89D50 /* Core */,
+				E8EDA0F82B6FB39B00F89D50 /* Component */,
+				E8EDA0F92B6FB3A000F89D50 /* Feature */,
+				E8EDA0FA2B6FB3A500F89D50 /* Model */,
+				E8EDA0F52B6FB34000F89D50 /* Info.plist */,
 				E8EDA0CD2B6FB21E00F89D50 /* Assets.xcassets */,
 				E8EDA0CF2B6FB21E00F89D50 /* Preview Content */,
 			);
@@ -125,6 +134,101 @@
 				E8EDA0E62B6FB21F00F89D50 /* VoiceMemoUITestsLaunchTests.swift */,
 			);
 			path = VoiceMemoUITests;
+			sourceTree = "<group>";
+		};
+		E8EDA0F62B6FB38500F89D50 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA0C92B6FB21D00F89D50 /* VoiceMemoApp.swift */,
+				E8EDA0CB2B6FB21D00F89D50 /* ContentView.swift */,
+				E8EDA0F32B6FB32700F89D50 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E8EDA0F72B6FB39600F89D50 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA0FB2B6FB3CD00F89D50 /* Service */,
+				E8EDA0FC2B6FB3D900F89D50 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E8EDA0F82B6FB39B00F89D50 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA0FE2B6FB44800F89D50 /* NavitagionBar */,
+				E8EDA0FD2B6FB43A00F89D50 /* CustomView */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		E8EDA0F92B6FB3A000F89D50 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA1002B6FB46D00F89D50 /* Home */,
+				E8EDA0FF2B6FB46600F89D50 /* Onboarding */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		E8EDA0FA2B6FB3A500F89D50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8EDA0FB2B6FB3CD00F89D50 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E8EDA0FC2B6FB3D900F89D50 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA1022B6FB52100F89D50 /* Color+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E8EDA0FD2B6FB43A00F89D50 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E8EDA0FE2B6FB44800F89D50 /* NavitagionBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavitagionBar;
+			sourceTree = "<group>";
+		};
+		E8EDA0FF2B6FB46600F89D50 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E8EDA1002B6FB46D00F89D50 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA1012B6FB48100F89D50 /* TodoList */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E8EDA1012B6FB48100F89D50 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TodoList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EDA0F42B6FB32700F89D50 /* LaunchScreen.storyboard in Resources */,
 				E8EDA0D12B6FB21E00F89D50 /* Preview Assets.xcassets in Resources */,
 				E8EDA0CE2B6FB21E00F89D50 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +364,7 @@
 			files = (
 				E8EDA0CC2B6FB21D00F89D50 /* ContentView.swift in Sources */,
 				E8EDA0CA2B6FB21D00F89D50 /* VoiceMemoApp.swift in Sources */,
+				E8EDA1032B6FB52100F89D50 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +531,10 @@
 				DEVELOPMENT_TEAM = 9HJKFUTNXJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -459,9 +566,10 @@
 				DEVELOPMENT_TEAM = 9HJKFUTNXJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
