@@ -9,7 +9,6 @@ import SwiftUI
 
 struct TodoListView: View {
     @EnvironmentObject private var pathModel: PathModel
-    
     // stateObject, ObservableObject로 할 수도 있다.
     @EnvironmentObject private var todoListViewModel: TodoListViewModel
     
@@ -20,7 +19,8 @@ struct TodoListView: View {
             VStack {
                 if !todoListViewModel.todos.isEmpty {
                     CustomNavigationBar(
-                    isDisplayLeftBtn: false,
+                    isDisplayLeftBtn: true,
+                    isDisplayRightBtn: true,
                     rightBtnAction: todoListViewModel.navigationRightBtnTapped,
                     rightBtnType: todoListViewModel.navigationBarRightBtnMode
                     )
@@ -161,6 +161,7 @@ private struct TodoCellView: View {
                     Text(todo.title)
                         .font(.system(size: 16))
                         .foregroundColor(todo.selected ? .customIconGray : .customBlack)
+                        .strikethrough(todo.selected) // 취소선 긋기
                     
                     Text(todo.covertedDayAndTime)
                         .font(.system(size: 16))

@@ -14,8 +14,8 @@ struct CustomNavigationBar: View {
     let rightBtnAction: () -> Void
     let rightBtnType: NavigationBtnType
     
-    init(isDisplayLeftBtn: Bool = false,
-         isDisplayRightBtn: Bool = false,
+    init(isDisplayLeftBtn: Bool = true,
+         isDisplayRightBtn: Bool = true,
          leftBtnAction: @escaping () -> Void = {},
          rightBtnAction: @escaping () -> Void = {},
          rightBtnType: NavigationBtnType = .edit

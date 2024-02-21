@@ -16,6 +16,7 @@ struct OnboardingView: View {
         NavigationStack(path: $pathModel.paths) {
 //            onboardingContentView(onboardingViewModel: onboardingViewModel)
             TodoListView()
+                .environmentObject(todoListViewModel)
                 .navigationDestination(for: PathType.self) { pathType in
                     switch pathType {
                     case .homeView:
@@ -24,6 +25,7 @@ struct OnboardingView: View {
                     case .todoView:
                         TodoView()
                             .navigationBarBackButtonHidden()
+                            .environmentObject(todoListViewModel)
                     case .memoView:
                         MemoView()
                             .navigationBarBackButtonHidden()
