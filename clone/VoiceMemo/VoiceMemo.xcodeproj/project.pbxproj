@@ -22,7 +22,6 @@
 		E8EDA10F2B6FC4E600F89D50 /* PathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA10E2B6FC4E600F89D50 /* PathModel.swift */; };
 		E8EDA1132B6FC65700F89D50 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1122B6FC65700F89D50 /* HomeView.swift */; };
 		E8EDA1152B6FC66100F89D50 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1142B6FC66100F89D50 /* TodoView.swift */; };
-		E8EDA1172B6FC66800F89D50 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1162B6FC66800F89D50 /* MemoView.swift */; };
 		E8EDA1192B8240C600F89D50 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1182B8240C600F89D50 /* Date+Extensions.swift */; };
 		E8EDA11B2B82424800F89D50 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA11A2B82424800F89D50 /* CustomNavigationBar.swift */; };
 		E8EDA11D2B8242E500F89D50 /* NavigationBtnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA11C2B8242E500F89D50 /* NavigationBtnType.swift */; };
@@ -30,6 +29,11 @@
 		E8EDA1222B8245CC00F89D50 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1212B8245CC00F89D50 /* TodoListView.swift */; };
 		E8EDA1242B8245F500F89D50 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1232B8245F500F89D50 /* TodoViewModel.swift */; };
 		E8EDA1262B82460C00F89D50 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1252B82460C00F89D50 /* TodoListViewModel.swift */; };
+		E8EDA1292B863A3400F89D50 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1282B863A3400F89D50 /* Memo.swift */; };
+		E8EDA12F2B863AC400F89D50 /* MemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA12E2B863AC400F89D50 /* MemoViewModel.swift */; };
+		E8EDA1312B863AD100F89D50 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1302B863AD100F89D50 /* MemoView.swift */; };
+		E8EDA1372B863B3000F89D50 /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1362B863B3000F89D50 /* MemoListViewModel.swift */; };
+		E8EDA1392B863B3A00F89D50 /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA1382B863B3A00F89D50 /* MemoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +73,6 @@
 		E8EDA10E2B6FC4E600F89D50 /* PathModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathModel.swift; sourceTree = "<group>"; };
 		E8EDA1122B6FC65700F89D50 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E8EDA1142B6FC66100F89D50 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
-		E8EDA1162B6FC66800F89D50 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
 		E8EDA1182B8240C600F89D50 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		E8EDA11A2B82424800F89D50 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		E8EDA11C2B8242E500F89D50 /* NavigationBtnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBtnType.swift; sourceTree = "<group>"; };
@@ -77,6 +80,11 @@
 		E8EDA1212B8245CC00F89D50 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		E8EDA1232B8245F500F89D50 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		E8EDA1252B82460C00F89D50 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		E8EDA1282B863A3400F89D50 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		E8EDA12E2B863AC400F89D50 /* MemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewModel.swift; sourceTree = "<group>"; };
+		E8EDA1302B863AD100F89D50 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		E8EDA1362B863B3000F89D50 /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
+		E8EDA1382B863B3A00F89D50 /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +212,7 @@
 		E8EDA0FA2B6FB3A500F89D50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8EDA1272B863A2300F89D50 /* Memo */,
 				E8EDA11E2B8244B300F89D50 /* Todo */,
 				E8EDA10B2B6FC49300F89D50 /* Path */,
 				E8EDA1042B6FB73A00F89D50 /* Onboarding */,
@@ -255,6 +264,7 @@
 		E8EDA1002B6FB46D00F89D50 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E8EDA12A2B863A9A00F89D50 /* MemoList */,
 				E8EDA1012B6FB48100F89D50 /* TodoList */,
 				E8EDA1122B6FC65700F89D50 /* HomeView.swift */,
 			);
@@ -300,7 +310,6 @@
 		E8EDA1112B6FC64700F89D50 /* Memo */ = {
 			isa = PBXGroup;
 			children = (
-				E8EDA1162B6FC66800F89D50 /* MemoView.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -311,6 +320,33 @@
 				E8EDA11F2B8244E300F89D50 /* Todo.swift */,
 			);
 			path = Todo;
+			sourceTree = "<group>";
+		};
+		E8EDA1272B863A2300F89D50 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA1282B863A3400F89D50 /* Memo.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		E8EDA12A2B863A9A00F89D50 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA12B2B863AAC00F89D50 /* Memo */,
+				E8EDA1362B863B3000F89D50 /* MemoListViewModel.swift */,
+				E8EDA1382B863B3A00F89D50 /* MemoListView.swift */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		E8EDA12B2B863AAC00F89D50 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDA1302B863AD100F89D50 /* MemoView.swift */,
+				E8EDA12E2B863AC400F89D50 /* MemoViewModel.swift */,
+			);
+			path = Memo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,19 +482,23 @@
 			files = (
 				E8EDA1242B8245F500F89D50 /* TodoViewModel.swift in Sources */,
 				E8EDA11B2B82424800F89D50 /* CustomNavigationBar.swift in Sources */,
-				E8EDA1172B6FC66800F89D50 /* MemoView.swift in Sources */,
+				E8EDA1392B863B3A00F89D50 /* MemoListView.swift in Sources */,
 				E8EDA1262B82460C00F89D50 /* TodoListViewModel.swift in Sources */,
 				E8EDA1192B8240C600F89D50 /* Date+Extensions.swift in Sources */,
+				E8EDA1372B863B3000F89D50 /* MemoListViewModel.swift in Sources */,
 				E8EDA1082B6FB7D000F89D50 /* OnboardingViewModel.swift in Sources */,
 				E8EDA1062B6FB74F00F89D50 /* OnboardingContent.swift in Sources */,
 				E8EDA11D2B8242E500F89D50 /* NavigationBtnType.swift in Sources */,
 				E8EDA10D2B6FC4A000F89D50 /* PathType.swift in Sources */,
 				E8EDA10A2B6FB9E600F89D50 /* OnboardingView.swift in Sources */,
+				E8EDA1312B863AD100F89D50 /* MemoView.swift in Sources */,
 				E8EDA10F2B6FC4E600F89D50 /* PathModel.swift in Sources */,
+				E8EDA12F2B863AC400F89D50 /* MemoViewModel.swift in Sources */,
 				E8EDA1202B8244E300F89D50 /* Todo.swift in Sources */,
 				E8EDA1132B6FC65700F89D50 /* HomeView.swift in Sources */,
 				E8EDA1152B6FC66100F89D50 /* TodoView.swift in Sources */,
 				E8EDA1222B8245CC00F89D50 /* TodoListView.swift in Sources */,
+				E8EDA1292B863A3400F89D50 /* Memo.swift in Sources */,
 				E8EDA0CA2B6FB21D00F89D50 /* VoiceMemoApp.swift in Sources */,
 				E8EDA1032B6FB52100F89D50 /* Color+Extensions.swift in Sources */,
 			);
