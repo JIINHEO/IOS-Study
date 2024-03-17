@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8C848B52BA722CE000F3EFE /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C848B42BA722CD000F3EFE /* Double+Extensions.swift */; };
+		E8C848B82BA7235F000F3EFE /* VoiceRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C848B72BA7235F000F3EFE /* VoiceRecorderViewModel.swift */; };
+		E8C848BC2BA7323F000F3EFE /* VoiceRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C848BB2BA7323F000F3EFE /* VoiceRecorderView.swift */; };
 		E8EDA0CA2B6FB21D00F89D50 /* VoiceMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDA0C92B6FB21D00F89D50 /* VoiceMemoApp.swift */; };
 		E8EDA0CE2B6FB21E00F89D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EDA0CD2B6FB21E00F89D50 /* Assets.xcassets */; };
 		E8EDA0D12B6FB21E00F89D50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EDA0D02B6FB21E00F89D50 /* Preview Assets.xcassets */; };
@@ -54,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8C848B42BA722CD000F3EFE /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		E8C848B72BA7235F000F3EFE /* VoiceRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderViewModel.swift; sourceTree = "<group>"; };
+		E8C848BB2BA7323F000F3EFE /* VoiceRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderView.swift; sourceTree = "<group>"; };
 		E8EDA0C62B6FB21D00F89D50 /* VoiceMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EDA0C92B6FB21D00F89D50 /* VoiceMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoApp.swift; sourceTree = "<group>"; };
 		E8EDA0CD2B6FB21E00F89D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8C848B62BA72340000F3EFE /* VoiceRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				E8C848B72BA7235F000F3EFE /* VoiceRecorderViewModel.swift */,
+				E8C848BB2BA7323F000F3EFE /* VoiceRecorderView.swift */,
+			);
+			path = VoiceRecorder;
+			sourceTree = "<group>";
+		};
 		E8EDA0BD2B6FB21C00F89D50 = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +247,7 @@
 			children = (
 				E8EDA1022B6FB52100F89D50 /* Color+Extensions.swift */,
 				E8EDA1182B8240C600F89D50 /* Date+Extensions.swift */,
+				E8C848B42BA722CD000F3EFE /* Double+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -264,9 +280,10 @@
 		E8EDA1002B6FB46D00F89D50 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E8EDA1122B6FC65700F89D50 /* HomeView.swift */,
 				E8EDA12A2B863A9A00F89D50 /* MemoList */,
 				E8EDA1012B6FB48100F89D50 /* TodoList */,
-				E8EDA1122B6FC65700F89D50 /* HomeView.swift */,
+				E8C848B62BA72340000F3EFE /* VoiceRecorder */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -489,6 +506,7 @@
 				E8EDA1082B6FB7D000F89D50 /* OnboardingViewModel.swift in Sources */,
 				E8EDA1062B6FB74F00F89D50 /* OnboardingContent.swift in Sources */,
 				E8EDA11D2B8242E500F89D50 /* NavigationBtnType.swift in Sources */,
+				E8C848B82BA7235F000F3EFE /* VoiceRecorderViewModel.swift in Sources */,
 				E8EDA10D2B6FC4A000F89D50 /* PathType.swift in Sources */,
 				E8EDA10A2B6FB9E600F89D50 /* OnboardingView.swift in Sources */,
 				E8EDA1312B863AD100F89D50 /* MemoView.swift in Sources */,
@@ -496,10 +514,12 @@
 				E8EDA12F2B863AC400F89D50 /* MemoViewModel.swift in Sources */,
 				E8EDA1202B8244E300F89D50 /* Todo.swift in Sources */,
 				E8EDA1132B6FC65700F89D50 /* HomeView.swift in Sources */,
+				E8C848BC2BA7323F000F3EFE /* VoiceRecorderView.swift in Sources */,
 				E8EDA1152B6FC66100F89D50 /* TodoView.swift in Sources */,
 				E8EDA1222B8245CC00F89D50 /* TodoListView.swift in Sources */,
 				E8EDA1292B863A3400F89D50 /* Memo.swift in Sources */,
 				E8EDA0CA2B6FB21D00F89D50 /* VoiceMemoApp.swift in Sources */,
+				E8C848B52BA722CE000F3EFE /* Double+Extensions.swift in Sources */,
 				E8EDA1032B6FB52100F89D50 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
